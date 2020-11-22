@@ -1,0 +1,16 @@
+{
+  "name": "zl-app",
+  "version": "1.0.0",
+  "description": "中论集团手机端",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.zhonglunv.com/zlgroup/zl-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

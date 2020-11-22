@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "发现",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

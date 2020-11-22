@@ -1,0 +1,1 @@
+<view class="communiction"><view class="tx"><h vue-id="3dda1368-1" bind:__l="__l" vue-slots="{{['default']}}">通讯录</h><image src="../../static/communicate/cal.png"></image></view></view>

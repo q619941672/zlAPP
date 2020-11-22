@@ -1,0 +1,116 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* .container {
+		padding: 20px;
+		font-size: 14px;
+		line-height: 24px;
+	} */
+.grid {
+		text-align: center;
+}
+	/* .grid-item-box {
+		margin-top: 40px;
+	} */
+.identify-head {
+		/* margin-top: 40px; */
+}
+.identify-head {
+		width: 64px; 
+		height: 64px;
+}
+.gemmologist-name{
+		font-size: 10px;
+		width: 50rpx;
+		margin-top: 10px;
+}
+.uni-grid-item{
+		margin-top: 30rpx;
+}
+	/* .serach{
+		    display: flex;
+		    height: 40px;
+		    line-height: 40px;
+	}
+	  .left, .right {
+	    
+	  } */
+

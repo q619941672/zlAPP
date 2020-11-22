@@ -1,0 +1,12 @@
+
+.dis{
+	line-height: 40px;
+	text-align: center;
+}
+.v1{
+	margin-top: 30rpx;
+}
+.message{
+}
+
+

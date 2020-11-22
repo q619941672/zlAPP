@@ -1,0 +1,19 @@
+
+.tx{
+	text-align: center;
+	font-size: 20px;
+	border-bottom: #cfcfcf 1px solid;
+	height: 40px;
+}
+.tx h{
+	line-height: 40px;
+}
+.tx image{
+	position: fixed;
+	
+	width: 40px;
+	height: 40px;
+	right: 0;
+	top: 0;
+}
+

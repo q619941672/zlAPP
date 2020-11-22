@@ -4,16 +4,26 @@
 		<text class="intro">详见：</text>
 		<uni-link :href="href" :text="href"></uni-link>
 	</view> -->
-	<view class="grid">
+<view class="index">
+	<view class="serach">
+		<uni-nav-bar>
+			<uni-search-bar :radius="100" @confirm="search" cancelButton="none" id="sea" placeholder="请输入关键字"></uni-search-bar>
+			<view slot="left" id="img1"><image src="../../static/index-img/1.jpg"></image></view>
+			<view slot="right"><image src="../../static/index-img/2.jpg"></image></view>
+		</uni-nav-bar>
+	</view>
+    <view class="grid">
 	  <uni-grid :column="4" :show-border="false" @change="even">
-	    <uni-grid-item v-for="(item, index) in dataList" :index="index" :key="index">
+	    <uni-grid-item v-for="(item, index) in dataList" :index="index" :key="index" class="uni-grid-item">
 	       <view class="grid-item-box" >
-	            <image :src="item.image" class="identify-head" mode="aspectFill" ></image>
-	            <text class="gemmologist-name">{{item.text}}</text>
+			   <view> <image :src="item.image" class="identify-head" mode="aspectFill" ></image></view>
+	           <view><text class="gemmologist-name">{{item.text}}</text></view>
 	       </view>
 	    </uni-grid-item>
 	  </uni-grid>
 	</view>
+</view>
+
 </template>
 
 <script>
@@ -34,11 +44,13 @@
 
 	// 	}
 	// }
+	import uniSearchBar from '@/components/uni-search-bar/uni-search-bar.vue'
 	import uniGrid from "@/components/uni-grid/uni-grid.vue"
 	import uniGridItem from "@/components/uni-grid-item/uni-grid-item.vue"
+	import uniNavBar from "@/components/uni-nav-bar/uni-nav-bar.vue"
 	export default {
     components: {
-uniGrid,uniGridItem
+uniGrid,uniGridItem,uniSearchBar,uniNavBar
 },
 data(){
 return{
@@ -76,17 +88,46 @@ url: url,
 		line-height: 24px;
 	} */
 	.grid {
-		text-align: center
+		text-align: center;
+		
+		
 	}
 	/* .grid-item-box {
 		margin-top: 40px;
 	} */
 	.identify-head {
-		margin-top: 40px;
+		/* margin-top: 40px; */
+		
 	}
 	.identify-head {
 		width: 64px; 
 		height: 64px;
 	}
-	
+	.gemmologist-name{
+		font-size: 10px;
+		width: 50rpx;
+		margin-top: 10px;
+	}
+	.uni-grid-item{
+		margin-top: 30rpx;
+	}
+	#sea{
+		width: 40vh;
+	}
+	.serach image{
+		width: 35px;
+		height: 35px;
+		margin-top: 2.5vh;
+	}
+	#img1{
+		margin-left: 1vh;
+	}
+/* .serach{
+		    display: flex;
+		    height: 40px;
+		    line-height: 40px;
+	}
+	  .left, .right {
+	    
+	  } */
 </style>

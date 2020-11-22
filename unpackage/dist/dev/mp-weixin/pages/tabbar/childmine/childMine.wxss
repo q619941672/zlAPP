@@ -1,0 +1,59 @@
+
+.grmessage image{
+		position: fixed;
+		top: 5px;
+		right: 5px;
+    	width: 30px;
+		height: 30px; 
+		z-index: 999;
+}
+.input{
+		padding-top: 10px;
+		height: 40px;
+		border-bottom: 1px #d1d1d5 solid;
+}
+.gexx{
+		padding: 30px 30px 0 30px;
+		border-bottom: 3px solid #d1d1d5;
+}
+.gexx image{
+		position: relative;
+		left: 10px;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
+		width: 80px;
+		height: 80px;
+}
+.gexx ._h5{
+		position: fixed;
+		text-align: center;
+
+		width: 50px;
+		color: #318fd9;
+}
+#c4 ._h5{
+		right: 45px;
+		top: 280px;
+}
+#c4{
+		border-bottom: none;
+}
+#c1 ._h5{
+		right: 45px;
+		top: 120px;
+}
+#c2 ._h5{
+		right: 45px;
+		top: 170px;
+}
+#c3 ._h5{
+		right: 45px;
+		top: 230px;
+}
+.gsrz{
+		height: 200px;
+		margin: 0 10px 0 10px;
+}
+.dprz{
+}
+
